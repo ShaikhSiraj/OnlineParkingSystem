@@ -1,5 +1,5 @@
 # OnlineParkingSystem
-This is a university project 
+This was a university project 
 
 This project implements the idea of online parking system which is done manually and also reduces man power making service more cheaper.
 
