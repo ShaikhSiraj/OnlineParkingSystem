@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="wbcbl.master.cs" Inherits="wbcbl" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+<head runat="server">
+  <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+    <link href="Styles/StyleSheet.css" rel="stylesheet" type="text/css" />  
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrapper">
+    <div class="menu">
+    <ul>
+    
+    <li class="navigtion_first_item"><a href="Default.aspx">Home</a></li>
+     <li><a href="farechart.aspx">FareChart</a></li>
+     <li><a href="availability.aspx">Availability</a></li>
+     <li><a href="checkdetails.aspx">CheckDetails</a></li>
+    <li><a href="wbcbl.aspx">Book</a></li>
+    
+    </ul>
+    </div>
+    <div class="clear"></div>
+    <div class="content">
+        <asp:ContentPlaceHolder id="contentBody" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+   <div class="clear"></div>
+    <div class="footer">
+    <h2><font  face="MV Boli">PARK</font>on    <font size="2" face="Calibri" color="#000000">(Park Smartly)</font></h2>
+   <div class="booking">
+   </div>
+    </div>
+    </form>
+</body>
+</html>

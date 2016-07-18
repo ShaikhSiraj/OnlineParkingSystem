@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="OUnobookinghome.master.cs" Inherits="OUnobookinghome" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+    <link href="Styles/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="wrapper">
+            <div class="menu">
+                <ul>
+
+                    <li class="navigtion_first_item"><a href="afterloggedinOUnobooking.aspx">Home</a></li>
+                    <li><a href="farechartOUnobooking.aspx">FareChart</a></li>
+                    <li><a href="availabilityOUnobooking.aspx">Availability</a></li>
+                    <li><a href="checkdetailsnobooking.aspx">CheckDetails</a></li>
+                    <li><a href="bookingOUnobooking.aspx">Book</a></li>
+                    <li><a href="historynobooking.aspx">History</a></li>
+                    <li><a href="Default.aspx">logout</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <div class="content">
+                  <div id="nav">
+                    <a href="stepstobooknobookinghome.aspx" id="navelements">
+                        <img src="Images/Buying_Guide_Icon.jpg" height="30px" width="30px" style="border: hidden" />Steps to Book</a><br />
+                    <a href="usersettingsOUnobooking.aspx" id="navelements">
+                        <img src="Images/settings.png" height="30px" width="30px" style="border: none" />User Settings</a><br />
+                    <a href="cvcv" id="navelements">
+                        <img src="Images/aboutus.png" height="30px" width="30px" style="border: none" />About Us</a>
+                </div>
+                <asp:ContentPlaceHolder ID="contentBody" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="clear"></div>
+            <div class="footer">
+                <h2><font face="MV Boli">PARK</font>on    <font size="2" face="Calibri" color="#000000">(Park Smartly)</font></h2>
+                <div class="booking">
+                </div>
+            </div>
+    </form>
+</body>
+</html>
+

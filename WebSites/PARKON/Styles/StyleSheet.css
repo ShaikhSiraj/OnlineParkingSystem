@@ -1,0 +1,227 @@
+﻿
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, textarea, p, block, border {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /*background-color: rgb(250,250,250);*/
+    background-image: url("../Images/blue-sky.jpg");
+    background-size: cover;
+    font-family: "Arial",Melvetica,Sans-serif;
+    font-size: 12px;
+}
+
+/*Page*/
+.wrapper {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+/*Home Page*/
+.content {
+    width: 100%;
+    background-image: url("../Images/blurgreentree.jpg");
+    background-size: cover;
+    /* background-color: rgb(254,254,254);*/
+    border: 1px solid rgb(224,224,224);
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-height: 450px;
+}
+
+.menu {
+    background-color: rgb(10,110,178);
+    width: 100%;
+    margin: 20px 0px 10px;
+    padding: 0px;
+    height: 40px;
+    color: rgb(243,243,243);
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+.navigtion_first_item {
+    border-left: 0px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+.navigation_s {
+    float: left;
+    border-right: 1px solid rgb(10,85,125);
+    border-left: 1px solid rgb(67,153,200);
+    height: 40px;
+    background-color: rgb(14,79,114);
+}
+
+
+
+.menu ul {
+}
+
+    .menu ul li {
+        float: left;
+        display: block;
+        list-style: none;
+        border-right: 1px solid rgb(10,85,125);
+        border-left: 1px solid rgb(67,153,200);
+        transition: all .2s ease-in-out;
+    }
+
+        .menu ul li.navigtion_first_item {
+            border-radius: 5px 0px 0px 5px;
+            transition: all .2s ease-in-out;
+        }
+
+
+        .menu ul li a {
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 40px;
+            padding: 8px 20px;
+            color: rgb(255,255,255);
+            text-decoration: none;
+            font-family: 'Open Sans';
+        }
+
+
+
+        .menu ul li:hover {
+            background-color: rgb(14,79,114);
+            border-right: 1px solid rgb(14,89,130);
+        }
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    height: 50px;
+    background-color: rgb(10,110,178);
+    color: rgb(255,255,255);
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+    .footer h2 {
+        padding: 5px;
+        text-align: center;
+        font-size: xx-large;
+        margin-top: 10px;
+    }
+
+#nav {
+    line-height: 30px;
+    background-color: rgb(10,110,178);
+    height: 100%;
+    width: 170px;
+    float: right;
+    padding: 5px;
+    position: relative;
+    color: white;
+    border-radius: 0px 10px 0px 10px;
+    z-index: 3;
+}
+
+#navelements {
+    color: black;
+    display: block;
+    color: white;
+    font-weight: bold;
+    height: auto;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    border-radius: 3px 3px 0px 0px;
+    border-bottom: 1px solid;
+    transition: all .2s ease-in-out;
+}
+
+    #navelements:hover {
+        background-color: rgb(14,79,114);
+        width: auto;
+        border-radius: 5px 3px 0px 3px;
+    }
+
+#steps {
+    position: relative;
+    margin-left: 25px;
+}
+
+.slideshow {
+    height: 413px;
+    width: 550px;
+    border-radius: 10px 10px 10px 10px;
+    border-width: 10px;
+    border-color: #9999ff;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 20px;
+    box-shadow: 0px 1px 1px 1px;
+}
+
+caption {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#hometext {
+    background: url("../Images/backhome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: none;
+    border-radius: 10px 10px 10px 10px;
+    width: 624px;
+    height: 427px;
+    position: absolute;
+    box-shadow: 0px 2px 2px 0px;
+    top: 100px;
+    left: 660px;
+}
+
+#welcometext {
+    position: relative;
+    font-family: 'Josefin Sans';
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px 10px 10px 10px;
+    color: black;
+    height: 35px;
+    width: 570px;
+    background-color: beige;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bookingfullimage, #availableimage, #norecord {
+    border-width: 3px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+
+
+/*#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 240px; 
+    height: 240px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}*/
+

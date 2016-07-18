@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="afterloggedinOU.master.cs" Inherits="afterloggedinOU" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+    <link href="Styles/StyleSheet.css" rel="stylesheet" type="text/css" />  
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrapper">
+    <div class="menu">
+    <ul>
+    
+    <li class="navigtion_first_item"><a href="afterloggedinOU.aspx">Home</a></li>
+     <li><a href="farechartOU.aspx">FareChart</a></li>
+     <li><a href="availabilityOU.aspx">Availability</a></li>
+     <li><a href="checkdetailsOU.aspx">Check Details</a></li>
+    <li><a href="bookingOU.aspx">Book</a></li>
+    <li><a href="cancelbooking.aspx">Cancel Booking</a></li>
+    <li><a href="history.aspx">History</a></li>
+    <li><a href="usersettings.aspx">User Settings</a></li>
+        
+       
+    <li><a href="Default.aspx">Logout</a></li>
+    </ul>
+    </div>
+    <div class="clear"></div>
+    <div class="content">
+        <asp:ContentPlaceHolder id="contentBody" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+   <div class="clear"></div>
+    <div class="footer">
+    <h2><font  face="MV Boli">PARK</font>on    <font size="2" face="Calibri" color="#000000">(Park Smartly)</font></h2>
+   <div class="booking">
+   </div>
+    </div>
+    </form>
+</body>
+</html>
